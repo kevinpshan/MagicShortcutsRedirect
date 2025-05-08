@@ -44,7 +44,6 @@
                 if (redirectUrl) {
                     // Redirect to the associated URL and close the current page
                     window.open(redirectUrl, '_self');
-                    window.close();
                 } else {
                     // Handle case when shortname is not found (e.g., show an error message)
                     console.error(`Shortname "${shortname}" not found.`);
